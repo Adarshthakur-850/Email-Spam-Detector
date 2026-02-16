@@ -111,17 +111,3 @@ Contributions are welcome! If you’d like to improve the project:
 2. Create a new branch (`feature/your-feature`)
 3. Commit your changes
 4. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is open source and available under the **MIT License**.
-
----
-
-## 🧠 About
-
-This repository demonstrates a practical implementation of an email spam detection system using NLP and traditional machine learning techniques. It can serve as a foundation for further enhancements, including deep learning or deployment as a web app.
-
-
