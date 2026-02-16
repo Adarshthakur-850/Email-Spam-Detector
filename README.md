@@ -1,5 +1,3 @@
-Here’s a clean, well-structured README.md tailored for your Email-Spam-Detector repository. It’s organized to help users understand the project, install dependencies, run it, and see results clearly — following best practices for readable, useful documentation.
-
 # Email Spam Detector
 
 A Python-based email spam classification system that uses natural language processing (NLP) and machine learning techniques to classify emails as **Spam** or **Not Spam (Ham)**. The project includes preprocessing, feature extraction, model training, evaluation, and visualization components.
@@ -15,24 +13,23 @@ Spam emails are unsolicited and often unwanted messages that clutter inboxes and
 ✔️ Evaluates model performance with metrics and plots  
 ✔️ Saves trained model for inference  
 
----
-
 ## 📁 Repository Structure
 
-
+```
 
 Email-Spam-Detector/
 │
-├─ data/ ← Data files used for training/testing
-├─ src/ ← Source code (modules/functions)
-├─ models/ ← Saved trained model files (.pkl)
-├─ plots/ ← Visual evaluation graphs (confusion matrix, etc.)
-├─ main.py ← Main entry script
-├─ requirements.txt ← Required Python libraries
-├─ README.md ← Project documentation
+├─ **data/**               ← Data files used for training/testing
+├─ **src/**                ← Source code (modules/functions)
+├─ **models/**             ← Saved trained model files (.pkl)
+├─ **plots/**              ← Visual evaluation graphs (confusion matrix, etc.)
+├─ main.py                ← Main entry script
+├─ requirements.txt       ← Required Python libraries
+├─ README.md              ← Project documentation
+
+````
 
 
----
 
 ## 🛠️ Features
 
