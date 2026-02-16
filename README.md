@@ -19,10 +19,10 @@ Spam emails are unsolicited and often unwanted messages that clutter inboxes and
 
 Email-Spam-Detector/
 │
-├─ **data/**               ← Data files used for training/testing
-├─ **src/**                ← Source code (modules/functions)
-├─ **models/**             ← Saved trained model files (.pkl)
-├─ **plots/**              ← Visual evaluation graphs (confusion matrix, etc.)
+├─ data               ← Data files used for training/testing
+├─ src                ← Source code (modules/functions)
+├─ models            ← Saved trained model files (.pkl)
+├─ plots              ← Visual evaluation graphs (confusion matrix, etc.)
 ├─ main.py                ← Main entry script
 ├─ requirements.txt       ← Required Python libraries
 ├─ README.md              ← Project documentation
@@ -101,3 +101,4 @@ This project is open source and available under the MIT License.
 🧠 About
 
 This repository demonstrates a practical implementation of an email spam detection system using NLP and traditional machine learning techniques. It can serve as a foundation for further enhancements, including deep learning or deployment as a web app.
+
