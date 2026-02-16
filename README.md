@@ -21,10 +21,10 @@ Spam emails are unsolicited and often unwanted messages that clutter inboxes and
 
 Email-Spam-Detector/
 │
-├─ *data/*               ← Data files used for training/testing
-├─ *src/*                ← Source code (modules/functions)
-├─ *models/*             ← Saved trained model files (.pkl)
-├─ *plots/*              ← Visual evaluation graphs (confusion matrix, etc.)
+├─ data              ← Data files used for training/testing
+├─ src                ← Source code (modules/functions)
+├─ models             ← Saved trained model files (.pkl)
+├─ plots             ← Visual evaluation graphs (confusion matrix, etc.)
 ├─ main.py                ← Main entry script
 ├─ requirements.txt       ← Required Python libraries
 ├─ README.md              ← Project documentation
@@ -123,15 +123,5 @@ This project is open source and available under the **MIT License**.
 ## 🧠 About
 
 This repository demonstrates a practical implementation of an email spam detection system using NLP and traditional machine learning techniques. It can serve as a foundation for further enhancements, including deep learning or deployment as a web app.
-
-```
-
----
-
-If you want, I can also help you add usage examples, badges (e.g., build status, license), or a demo GIF to make the README more engaging. — Would you like that?
-::contentReference[oaicite:1]{index=1}
-```
-
-[1]: https://www.hatica.io/blog/best-practices-for-github-readme/?utm_source=chatgpt.com "Best Practices For An Eye Catching GitHub Readme"
 
 
