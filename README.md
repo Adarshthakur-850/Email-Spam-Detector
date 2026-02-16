@@ -1,3 +1,5 @@
+Here’s a clean, well-structured README.md tailored for your Email-Spam-Detector repository. It’s organized to help users understand the project, install dependencies, run it, and see results clearly — following best practices for readable, useful documentation.
+
 # Email Spam Detector
 
 A Python-based email spam classification system that uses natural language processing (NLP) and machine learning techniques to classify emails as **Spam** or **Not Spam (Ham)**. The project includes preprocessing, feature extraction, model training, evaluation, and visualization components.
@@ -17,19 +19,18 @@ Spam emails are unsolicited and often unwanted messages that clutter inboxes and
 
 ## 📁 Repository Structure
 
-```
+
 
 Email-Spam-Detector/
 │
-├─ data              ← Data files used for training/testing
-├─ src                ← Source code (modules/functions)
-├─ models             ← Saved trained model files (.pkl)
-├─ plots             ← Visual evaluation graphs (confusion matrix, etc.)
-├─ main.py                ← Main entry script
-├─ requirements.txt       ← Required Python libraries
-├─ README.md              ← Project documentation
+├─ data/ ← Data files used for training/testing
+├─ src/ ← Source code (modules/functions)
+├─ models/ ← Saved trained model files (.pkl)
+├─ plots/ ← Visual evaluation graphs (confusion matrix, etc.)
+├─ main.py ← Main entry script
+├─ requirements.txt ← Required Python libraries
+├─ README.md ← Project documentation
 
-````
 
 ---
 
@@ -49,65 +50,57 @@ Email-Spam-Detector/
    ```bash
    git clone https://github.com/Adarshthakur-850/Email-Spam-Detector.git
    cd Email-Spam-Detector
-````
 
-2. **Create & activate a virtual environment (optional but recommended)**
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # macOS/Linux
-   venv\Scripts\activate      # Windows
-   ```
+Create & activate a virtual environment (optional but recommended)
 
-3. **Install dependencies**
+python -m venv venv
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      # Windows
 
-   ```bash
-   pip install -r requirements.txt
-   ```
 
----
+Install dependencies
 
-## ▶️ Usage
+pip install -r requirements.txt
 
-### 📌 Train the Model
-
-```bash
+▶️ Usage
+📌 Train the Model
 python main.py train
-```
 
-This will preprocess the dataset, fit the model, and save it to the `models/` folder.
 
-### 📌 Predict on New Emails
+This will preprocess the dataset, fit the model, and save it to the models/ folder.
 
-```bash
+📌 Predict on New Emails
 python main.py predict
-```
 
-Enter email text when prompted — the system will classify it as **Spam** or **Not Spam**.
 
----
+Enter email text when prompted — the system will classify it as Spam or Not Spam.
 
-## 📊 Evaluation
+📊 Evaluation
 
-After training, evaluation metrics and plots (e.g., confusion matrix, accuracy scores) are stored in the `plots/` directory. Use them to analyze model performance.
+After training, evaluation metrics and plots (e.g., confusion matrix, accuracy scores) are stored in the plots/ directory. Use them to analyze model performance.
 
----
-
-## 💡 Example Output
-
-```
+💡 Example Output
 Enter email text: "Congratulations! You've won a free trip!"
 Prediction: SPAM
 Confidence: 93%
-```
 
----
-
-## 🤝 Contributing
+🤝 Contributing
 
 Contributions are welcome! If you’d like to improve the project:
 
-1. Fork the repository
-2. Create a new branch (`feature/your-feature`)
-3. Commit your changes
-4. Open a Pull Request
+Fork the repository
+
+Create a new branch (feature/your-feature)
+
+Commit your changes
+
+Open a Pull Request
+
+📄 License
+
+This project is open source and available under the MIT License.
+
+🧠 About
+
+This repository demonstrates a practical implementation of an email spam detection system using NLP and traditional machine learning techniques. It can serve as a foundation for further enhancements, including deep learning or deployment as a web app.
