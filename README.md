@@ -1,8 +1,3 @@
-Here’s a clean, well-structured `README.md` tailored for your **Email-Spam-Detector** repository. It’s organized to help users understand the project, install dependencies, run it, and see results clearly — following best practices for readable, useful documentation. ([Hatica][1])
-
----
-
-```markdown
 # Email Spam Detector
 
 A Python-based email spam classification system that uses natural language processing (NLP) and machine learning techniques to classify emails as **Spam** or **Not Spam (Ham)**. The project includes preprocessing, feature extraction, model training, evaluation, and visualization components.
@@ -138,3 +133,4 @@ If you want, I can also help you add usage examples, badges (e.g., build status,
 ```
 
 [1]: https://www.hatica.io/blog/best-practices-for-github-readme/?utm_source=chatgpt.com "Best Practices For An Eye Catching GitHub Readme"
+
